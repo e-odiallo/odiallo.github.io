@@ -21,13 +21,12 @@
 		<!-- CUSTOM CSS -->
 		<link rel="stylesheet" type="text/css" href="css/custom/style.css">
 	</head>
-
 	<body data-spy="scroll" data-offset="100">
 		<div id="return-to-top"><i class="fas fa-bolt-lightning"></i></div>
 		
 		<!--======================================= NAVIGATION START =========================================-->
-		<div class="pre-header-menu1" style="background-color: #262696;">
-			<div class="container">
+		<div class="pre-header-menu1" style="background-color: #262696;" id="menu_top">
+			<div class="container" >
 				<div class="row rowsafari res-menu-center">
 					<div class="col-lg-12 col-md-12 col-sm-12 pre-menu-pad">
 						<div class="logo-style menu-social-icon">
@@ -45,7 +44,7 @@
 										<i class="fas fa-phone-alt pre-header-menu-icon" aria-hidden="true"></i>
 									</li>
 									<li class="display-table-cell vertical-align-middle">
-										<p class="text-white"> +33 7 45 01 88 70</p>
+										<p class="text-white"> 07 51 06 52 34</p>
 									</li>
 								</ul>
 							</li>
@@ -55,17 +54,18 @@
 										<i class="fas fa-envelope pre-header-menu-icon" aria-hidden="true"></i>
 									</li>
 									<li class="display-table-cell vertical-align-middle">
-										<p class="text-white">sample@domain.com</p>
+										<p class="text-white">akd.elec@gmail.com</p>
 									</li>
 								</ul>
 							</li>
 							<li class="display-table-cell pre-menu-contacts2">
 								<ul class="display-table">
 									<li class="display-table-cell menu1-icon">
-										<i class="fas fa-envelope pre-header-menu-icon" aria-hidden="true"></i>
+										<i class="fas fa-circle-arrow-right pre-header-menu-icon" aria-hidden="true"></i>
 									</li>
 									<li class="display-table-cell vertical-align-middle">
-										<p class="text-white">Lundi - Vendredi - 9:00 - 18:00</p>
+										<p class="text-white">Lundi - Vendredi - 8:00 - 17:00 & Samedi - 9:00 - 13:00</p>
+										
 									</li>
 								</ul>
 							</li>
@@ -94,7 +94,7 @@
 					<div class="navbar-collapse collapse nav-right-content" id="navbarSupportedContent" >
 						<ul class="navbar-nav">
 							<li class="safari-menu safari-menu-bg"><a href="#acceuil" class="nav-link nav-style pagescroll active">Acceuil</a></li>
-							<li class="safari-menu safari-menu-bg"><a href="#services" class="nav-link nav-style pagescroll">Services</a></li>
+							<li class="safari-menu safari-menu-bg"><a href="services.html" class="nav-link nav-style pagescroll">Services</a></li>
 							<li class="safari-menu safari-menu-bg"><a href="#about" class="nav-link nav-style pagescroll">A propos </a></li>
 							<li class="safari-menu safari-menu-bg"><a href="#form" class="nav-link nav-style pagescroll">Contactez nous</a></li>
 						</ul>
@@ -108,19 +108,61 @@
 		
 		<!--=================================================== HEADER AREA START ==============================================-->
 		<header class="header-bg-img bg-img-property" id="home">
-			<div class="container">
-				<div class="row rowsafari">
-					<div class="col-lg-6">
-						<h1 class="margin-bottom10">Une gamme complète  <span class="theme-color-1"> de services </span> électriques</h1>
-						<p class="header-content">Nous offrons des solutions électriques fiables et sécurisées pour tous vos besoins résidentiels, commerciaux et industriels. Faites confiance à notre expertise pour tous vos besoins énergétiques. </p>
-						<div class="display-table btn-wrapper">
-							<div class="">
-								<a href="#" class="text-white header-btn btn-spa"> En savoir plus <i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
-								<a href="#" class="text-white header-btn2">A Propos de nous<i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
+			<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/1920x1080x1.jpg" class="d-block w-100" alt="First Slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h1 class="margin-bottom10">Une gamme complète <span class="theme-color-1"> de services </span> électriques</h1>
+							<p class="header-content">Nous offrons des solutions électriques fiables et sécurisées pour tous vos besoins résidentiels, commerciaux et industriels. Faites confiance à notre expertise pour tous vos besoins énergétiques.</p>
+							<div class="display-table btn-wrapper">
+								<div class="">
+									<a href="#" class="text-white header-btn btn-spa"> En savoir plus <i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
+									<a href="#" class="text-white header-btn2">A Propos de nous<i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="images/1920x1080x2.jpg" class="d-block w-100" alt="Second Slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h1 class="margin-bottom10">Une gamme complète <span class="theme-color-1"> de services </span> électriques</h1>
+							<p class="header-content">Nous offrons des solutions électriques fiables et sécurisées pour tous vos besoins résidentiels, commerciaux et industriels. Faites confiance à notre expertise pour tous vos besoins énergétiques.</p>
+							<div class="display-table btn-wrapper">
+								<div class="">
+									<a href="#" class="text-white header-btn btn-spa"> En savoir plus <i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
+									<a href="#" class="text-white header-btn2">A Propos de nous<i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="images/1920x1080x1.jpg" class="d-block w-100" alt="Third Slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h1 class="margin-bottom10">Une gamme complète <span class="theme-color-1"> de services </span> électriques</h1>
+							<p class="header-content">Nous offrons des solutions électriques fiables et sécurisées pour tous vos besoins résidentiels, commerciaux et industriels. Faites confiance à notre expertise pour tous vos besoins énergétiques.</p>
+							<div class="display-table btn-wrapper">
+								<div class="">
+									<a href="#" class="text-white header-btn btn-spa"> En savoir plus <i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
+									<a href="#" class="text-white header-btn2">A Propos de nous<i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
 			</div>
 		</header>
 		<!--=================================================== HEADER AREA END ===================================================-->
@@ -154,7 +196,7 @@
 					<!--===================== LEFT==========================-->
 					<div class="col-12 col-sm-12 col-md-6 col-lg-4 res-gly-pad30">
 						<div class="">
-							<h3 class="padding-bottom10"><a href="#">Services électriques</a></h3>
+							<h3 class="padding-bottom10"><a href="#">Pourquoi choisir AKD-Elec</a></h3>
 							<p  class="text-start">Nous offrons une gamme complète de services électriques pour répondre à vos besoins résidentiels, commerciaux et industriels. De l’installation à la maintenance, notre équipe qualifiée garantit des solutions sûres et efficaces pour assurer la performance optimale de votre installation électrique.</p>
 						</div>
 					</div>
@@ -205,34 +247,6 @@
 		</section>
 		<!--=============================================== SERVICES AREA END ==================================================-->
 		
-		<!--=============================================== GALLERY AREA START =================================================-->
-		
-		<!--================================================ GALLERY AREA END ==================================================-->
-		
-		<!--================================================= CTA AREA START ===================================================-->
-		<section class="theme-bg-color cta-section-space position-relative" style="background-color: #262696;">
-			<div class="container">
-				<div class="row rowsafari cta-btn">
-					<div class="col-lg-8 col-md-6">
-						<h3 class="margin-bottom10 text-white">Les équipements électriques de haut niveau sont disponibles... !</h3>
-						<p class="ctn-content text-white"></p>
-					</div>					
-					<div class="col-lg-4 col-md-6 cta-button">	
-						<div class="display-table btn-wrapper">
-							<div>
-								<a href="#" class="ctn-btn btn-spa">En savoir plus<i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
-								<a href="#" class="text-white ctn-btn-2">Achetez maintenant <i class="fas fa-circle-arrow-right btn-arrow-left"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--====================================================== CTA AREA END ===============================================-->
-		
-		<!--===================================================== TEAM AREA START =============================================-->
-		
-		<!--================================================== TEAM AREA END ======================================================-->
 		
 		<!--================================================ OUR TESTIMONIAL START ================================================-->
 		
@@ -368,9 +382,9 @@
 							<div class="col-lg-6 col-pad-0">
 								<div class="form-contact">
 									<div class="">
-										<form action="#" class="contact-form form-res" method="post">
+										<form action="#" class="contact-form form-res" method="post">		
 											<div class="form-title text-center">
-												<h3 class="margin-bottom20">Demandez un rendez-vous</h3>
+												<h3 class="margin-bottom20">Demander un devis</h3>
 											</div>
 											<div class="margin-bottom20">
 												<input class="form-input" type="text" name="name" value="" placeholder="Nom" required autocomplete="off" />
@@ -385,7 +399,7 @@
 												 <textarea class="form-textarea" name="message" placeholder="Votre message " cols="40" rows="5" required autocomplete="off"></textarea>
 											</div>
 											<div class="btn-wrapper text-center">
-												<button class="form-btn btn-rounded" type="submit">Demandez a etre appeler <i class="fas fa-phone-flip btn-arrow-left"></i></button>
+												<button class="form-btn btn-rounded" type="submit">Envoyer<i class="fas fa-phone-flip btn-arrow-left"></i></button>
 											</div>
 											<div class="messageDiv"> <span class="sucessMessage"> </span> <span class="failMessage"> </span></div>
 										</form>
@@ -397,6 +411,16 @@
 				</div>
 			</div>
 		</section>
+		<!--================================================= FORM AREA END  =================================================-->
+		
+		<!--============================================== OUR NEWS START ================================================-->
+		
+		<!--==================================================== OUR NEWS END ===================================================-->
+		
+		<!-- ============================================== SUBSCRIBE AREA START =================================================-->
+		
+		<!--============================================ SUBSCRIBE AREA END ==============================================-->
+		
 		<!-- ============================================== FOOTER AREA START ================================================-->
 		<section class="section-dark-bg res-comn-top-btm-space" style="background-color: #262696;">
 			<div class="footer-top">
@@ -448,7 +472,7 @@
 								<p class="padding-bottom20 footer-text">Nos électriciens expérimentés sont hautement qualifiés dans tous les aspects du service électrique, de l'éclairage des bureaux et des systèmes de sécurité aux réparations d'urgence.</p>
 								<ul class="footer-lists">
 									<li><i class="fas fa-map-marker footer-lists-icon" aria-hidden="true"></i>1 All. de l'Adour, 92160 Antony</li>
-									<li><i class="fas fa-envelope footer-lists-icon" aria-hidden="true"></i>mailid@domain.com</li>
+									<li><i class="fas fa-envelope footer-lists-icon" aria-hidden="true"></i>akd.elec@gmail.com</li>
 								
 									<li><i class="fas fa-globe footer-lists-icon" aria-hidden="true"></i>Lundi - Vendredi - 8:00 - 17:00</li>
 									<li><i class="fas fa-globe footer-lists-icon" aria-hidden="true"></i>Samedi - 9:00 - 13:00</li>
@@ -486,8 +510,31 @@
 		</section>
 		<!--=============================================== FOOTER AREA END ====================================================-->
 
-
-
+		<!--================================================ POPUP FORM END ====================================================-->
+		<!-- JQUERY LIBRARY -->
+		<script src="js/vendor/jquery.min.js"></script>
+		<!-- BOOTSTRAP -->
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<!--JQUERY COUNTER -->
+		<script src="js/vendor/counter/jquery.counterup.min.js"></script>
+		<script src="js/vendor/counter/counter-lib.js"></script>
+		<!-- FORM VALIDATION -->
+		<script src="js/vendor/jquery.easing.min.js"></script>
+		<!-- FORM VALIDATION -->
+		<script src="js/vendor/validate/jquery.validate.min.js"></script>
+		<!-- MAGNIFIC LIGHT BOX -->
+		<script src="js/vendor/magnific/jquery.magnific-popup.js"></script>
+		<!-- SLIDER JS FILES -->
+		<script src="js/vendor/slider/owl-carousel.min.js"></script>
+		<script src="js/vendor/slider/owl-slider.js"></script>		
+		<!-- SUBSCRIBE MAILCHIMP -->
+		<script type="text/javascript" src="js/vendor/subscribe/subscribe_validate.js"></script>
+		<!-- VIDEO -->
+		<script src="js/vendor/video/video.js"></script>	
+		<!-- NUMBER VALIDATION JS FILES -->
+		<script src="js/vendor/number.js"></script>
+		<!-- THEME JS -->
+		<script src="js/custom/custom.js"></script>
 		
 	</body>
 </html>
